@@ -5,7 +5,8 @@ module.exports = {
   entry: './src/app.ts',
   devtool: 'inline-source-map',
   devServer: {
-      contentBase: './dist'
+      contentBase: './dist',
+      watchContentBase: true
   },
   module: {
     rules: [
